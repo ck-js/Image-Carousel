@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="carousel-container">
+        <button id="previous"><</button>
+        <div id="slide-1" class="slide-wrappers current-slide">
+<img src="./img1.jpeg" alt="image 1" id="image-1" class="images">
+        </div>
+        <div id="slide-2" class="slide-wrappers">
+<img src="./img2.jpeg" alt="image 2" id="image-2" class="images">
+    </div>
+    <div id="slide-3" class="slide-wrappers">
+<img src="./img3.jpeg" alt="image 3" id="image-3" class="images">
+</div>
+
+        <button id="next" onclick="addClassToNextSlide()">></button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
