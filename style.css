@@ -38,3 +38,16 @@ button {
     justify-content: center;
     align-items: center;
 }
+#slide-nav-container {
+    width: 50%;
+    height: 100px;
+}
+.slide-nav-circles {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current-slide-circle {
+    background-color: yellowgreen;
+}
