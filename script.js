@@ -95,3 +95,6 @@ slideCirclesArray.forEach((circle, index) => {
         circle.classList.add('current-slide-circle');
     });
 });
+
+
+setInterval(nextSlide, 5000);
